@@ -106,5 +106,6 @@ public class LoginStep {
     @Then("user should see the #Inbox - Odoo as title")
     public void userShouldSeeTheInboxOdooAsTitle() {
         Assert.assertTrue(Driver.getDriver().getTitle().equalsIgnoreCase("#Inbox - Odoo"));
+        System.out.println();
     }
 }
